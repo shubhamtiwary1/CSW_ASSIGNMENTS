@@ -1,0 +1,41 @@
+body{
+				background-color : #5d81a9;
+			}
+			h1{
+				left : 100px;
+			}
+			.info{
+				display : inline-block;
+				display: inline-block;
+    				border: 4px solid red;
+    				border-radius: 22px;
+   				padding: 18px 19px;
+				border : 4px solid #626060;
+				font-size: 23px;
+			}
+			.pic{
+				display : inline-block;
+				position: absolute;
+    				right: 20px;
+				border : 4px solid #626060;
+				border-radius: 22px;
+			}
+			img{
+				width: 165px;
+    				height: 169px;
+			}
+			.link{
+				position: absolute;
+    				margin-top: 302px;
+   				margin-left: 849px;
+    				top: 55px;
+			}
+			a{
+				color: #1c3d0c;
+    				font-size: 18px;
+    				margin: 5px;
+    				text-decoration: none;
+			}
+			a:hover{
+				color: gold;
+			}
