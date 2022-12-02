@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>A3Q7</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+        }
+
+        body {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            background-color: lightgray;
+            border: 2px solid white;
+            width: 500px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+        }
+
+        #submit {
+            background-color: black;
+            height: 25px;
+            color: white;
+            width: 77px;
+        }
+
+        input,
+        label {
+            background-color: lightgrey;
+            color: black;
+            width: 200px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Sign-Up form</h1>
+        <form>
+            <label for="name">First Name: </label>
+            <input type="text" id="in1"><br>
+            <label for="name">Last Name: </label>
+            <input type="text" id="in2"><br>
+            <label for="email">Email: </label>
+            <input type="text" placeholder="Enter your email" id="em"><br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>

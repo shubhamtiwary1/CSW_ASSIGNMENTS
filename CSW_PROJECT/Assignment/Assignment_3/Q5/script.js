@@ -6,7 +6,7 @@ $("#btn2").click(function(){
     $("#div1").slideDown("slow");
 });
 
-$(".btn3").click(function(){
+$("#btn3").click(function(){
 	$(".div2").animate({height: "300px"});
 });
 
